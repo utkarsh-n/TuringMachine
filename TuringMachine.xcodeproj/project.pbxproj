@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B667FD46774DD821692F884 /* TuringMachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE09D7D1BDAB850E1742AF24 /* TuringMachineUITests.swift */; };
+		0C402E1748AEBF884E6022B4 /* RuleDraftCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93496F99E67A47D587EA87C1 /* RuleDraftCodec.swift */; };
+		3A1C6430CCDA562903D03E43 /* WorkbenchStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D39B6F707F859595A0A07 /* WorkbenchStyle.swift */; };
+		3AB158FBFCD1D558201EE8C3 /* DialOptics.metal in Sources */ = {isa = PBXBuildFile; fileRef = E8AC648EA0CC07688EDFAFBA /* DialOptics.metal */; };
+		45BAD185AFD23E4EAD7C410A /* TheoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040E8B0A46E238C71ED8DBF /* TheoryView.swift */; };
+		69B38DF4AE66148CE387C644 /* ExecutionDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7210954878386784B3942B02 /* ExecutionDial.swift */; };
+		7E75AAB2DDBF7BD2205A6E97 /* RulebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F9950B99025EED9E0152AB /* RulebookView.swift */; };
+		8C2D6455C9B6AF7B195FEFEB /* RuleEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619B3382A893D9A6F26DE5D6 /* RuleEditorView.swift */; };
+		AFA1F74C6F5A2C00FA1D7CC2 /* ExecutionTraceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B04C583877DE5461FA64FC3 /* ExecutionTraceView.swift */; };
+		BA77FA177CFC838DA48031DA /* DialOpticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329B6E880C310392311643E /* DialOpticsView.swift */; };
+		BE184BBAF49C82129C3CAED4 /* TapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A99FFF60BFC96798C5382 /* TapeView.swift */; };
+		C3EA92958F4D047D714BE1E5 /* MotionLighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C45464BA7F50842FF2424D /* MotionLighting.swift */; };
+		C4E27AEC1FE77FE328CA87D7 /* ProgramLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ECFE68F5F873E87442D09 /* ProgramLibraryView.swift */; };
+		C8D92BA7DFA2FC8C5B7C395E /* TuringCore in Frameworks */ = {isa = PBXBuildFile; productRef = A51EC222D528CFA8AEF14460 /* TuringCore */; };
+		E1A045A78F829BFA3455E179 /* TuringCore in Frameworks */ = {isa = PBXBuildFile; productRef = 26FEC912B4D7B72C58660050 /* TuringCore */; };
+		E523C86B572FCD51226DD6D2 /* MachineSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FAC86E8C909116C93D0F4 /* MachineSessionTests.swift */; };
+		E5E289170F50D9E9BC1BD750 /* MachineSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017A58E8F92013A116BA710 /* MachineSession.swift */; };
+		E6A03A97F84090E4AC6D0271 /* InstrumentBackdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D0EC7D4CD12EB885C704A /* InstrumentBackdrop.swift */; };
+		E6E07C165D5858FB02E321D9 /* MachineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D508296BE67BE3DD56498C /* MachineView.swift */; };
+		E886DFE8DBA6DDB435EC1726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4741B75E24995DA175883F /* Assets.xcassets */; };
+		EB5818EE2C40640A7AA86AFF /* MachineFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6355189BCD348433A85E2A4 /* MachineFeedback.swift */; };
+		F39B7DCBA58733B34A7E3691 /* TuringMachineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EA4809C99173B7C7D3C960 /* TuringMachineApp.swift */; };
+		F684E2D0FFDCE9AEE806A3A2 /* MachineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C951254F0D541C38E75F6 /* MachineStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		638D3421D50FA4217537C232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 430A5B0A6418B507C97713D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2969FAE5F88B92522DF31F92;
+			remoteInfo = TuringMachine;
+		};
+		F5AD1C36DA0FFEDC5614B5FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 430A5B0A6418B507C97713D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2969FAE5F88B92522DF31F92;
+			remoteInfo = TuringMachine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F9950B99025EED9E0152AB /* RulebookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulebookView.swift; sourceTree = "<group>"; };
+		047FAC86E8C909116C93D0F4 /* MachineSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineSessionTests.swift; sourceTree = "<group>"; };
+		081DB4D7B3F7A2E41B918919 /* TuringCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TuringCore; path = TuringCore; sourceTree = SOURCE_ROOT; };
+		1040E8B0A46E238C71ED8DBF /* TheoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryView.swift; sourceTree = "<group>"; };
+		20EA4809C99173B7C7D3C960 /* TuringMachineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuringMachineApp.swift; sourceTree = "<group>"; };
+		332C951254F0D541C38E75F6 /* MachineStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineStyle.swift; sourceTree = "<group>"; };
+		3B04C583877DE5461FA64FC3 /* ExecutionTraceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionTraceView.swift; sourceTree = "<group>"; };
+		619B3382A893D9A6F26DE5D6 /* RuleEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleEditorView.swift; sourceTree = "<group>"; };
+		7210954878386784B3942B02 /* ExecutionDial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionDial.swift; sourceTree = "<group>"; };
+		754A9B9DD06A3273D56D9756 /* TuringMachine.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TuringMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D508296BE67BE3DD56498C /* MachineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineView.swift; sourceTree = "<group>"; };
+		93496F99E67A47D587EA87C1 /* RuleDraftCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleDraftCodec.swift; sourceTree = "<group>"; };
+		A0F19852788E00D7C4CE76CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A329B6E880C310392311643E /* DialOpticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialOpticsView.swift; sourceTree = "<group>"; };
+		AC0ECFE68F5F873E87442D09 /* ProgramLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramLibraryView.swift; sourceTree = "<group>"; };
+		BB0A99FFF60BFC96798C5382 /* TapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapeView.swift; sourceTree = "<group>"; };
+		BF4741B75E24995DA175883F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C50D0EC7D4CD12EB885C704A /* InstrumentBackdrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentBackdrop.swift; sourceTree = "<group>"; };
+		C6355189BCD348433A85E2A4 /* MachineFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineFeedback.swift; sourceTree = "<group>"; };
+		CE3D39B6F707F859595A0A07 /* WorkbenchStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkbenchStyle.swift; sourceTree = "<group>"; };
+		D1C45464BA7F50842FF2424D /* MotionLighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionLighting.swift; sourceTree = "<group>"; };
+		DB38E475A98CC7D9A8881AAE /* TuringMachineSessionTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TuringMachineSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBF58CA0A50593E09E00F98 /* TuringMachineUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TuringMachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AC648EA0CC07688EDFAFBA /* DialOptics.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = DialOptics.metal; sourceTree = "<group>"; };
+		F017A58E8F92013A116BA710 /* MachineSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineSession.swift; sourceTree = "<group>"; };
+		FE09D7D1BDAB850E1742AF24 /* TuringMachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuringMachineUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9825C7B432E8633EA3B3E345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D92BA7DFA2FC8C5B7C395E /* TuringCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6116F42BE3FEB17FEA5546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A045A78F829BFA3455E179 /* TuringCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05402FD94944F32D655E2498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				754A9B9DD06A3273D56D9756 /* TuringMachine.app */,
+				DB38E475A98CC7D9A8881AAE /* TuringMachineSessionTests.xctest */,
+				DFBF58CA0A50593E09E00F98 /* TuringMachineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		583E9E0DCBB13AE2A9F4B582 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE09D7D1BDAB850E1742AF24 /* TuringMachineUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		7962F2382E0001E96163B895 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				081DB4D7B3F7A2E41B918919 /* TuringCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		8619D0CA8823FB449E961527 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1F6497C65DDA83EAFC4AA9E /* SessionTests */,
+				583E9E0DCBB13AE2A9F4B582 /* UITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		922D3D276DC2B2A2C035B954 = {
+			isa = PBXGroup;
+			children = (
+				7962F2382E0001E96163B895 /* Packages */,
+				8619D0CA8823FB449E961527 /* Tests */,
+				9C403EE307A544E31CD7DDFD /* TuringMachine */,
+				05402FD94944F32D655E2498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C403EE307A544E31CD7DDFD /* TuringMachine */ = {
+			isa = PBXGroup;
+			children = (
+				BF4741B75E24995DA175883F /* Assets.xcassets */,
+				A0F19852788E00D7C4CE76CF /* Info.plist */,
+				C6355189BCD348433A85E2A4 /* MachineFeedback.swift */,
+				F017A58E8F92013A116BA710 /* MachineSession.swift */,
+				332C951254F0D541C38E75F6 /* MachineStyle.swift */,
+				91D508296BE67BE3DD56498C /* MachineView.swift */,
+				BB0A99FFF60BFC96798C5382 /* TapeView.swift */,
+				20EA4809C99173B7C7D3C960 /* TuringMachineApp.swift */,
+				C95B632E6023457EA58BA911 /* Instrument */,
+				E769BF83953DFC8AA1D77449 /* Workbench */,
+			);
+			path = TuringMachine;
+			sourceTree = "<group>";
+		};
+		C1F6497C65DDA83EAFC4AA9E /* SessionTests */ = {
+			isa = PBXGroup;
+			children = (
+				047FAC86E8C909116C93D0F4 /* MachineSessionTests.swift */,
+			);
+			path = SessionTests;
+			sourceTree = "<group>";
+		};
+		C95B632E6023457EA58BA911 /* Instrument */ = {
+			isa = PBXGroup;
+			children = (
+				E8AC648EA0CC07688EDFAFBA /* DialOptics.metal */,
+				A329B6E880C310392311643E /* DialOpticsView.swift */,
+				7210954878386784B3942B02 /* ExecutionDial.swift */,
+				C50D0EC7D4CD12EB885C704A /* InstrumentBackdrop.swift */,
+				D1C45464BA7F50842FF2424D /* MotionLighting.swift */,
+			);
+			path = Instrument;
+			sourceTree = "<group>";
+		};
+		E769BF83953DFC8AA1D77449 /* Workbench */ = {
+			isa = PBXGroup;
+			children = (
+				3B04C583877DE5461FA64FC3 /* ExecutionTraceView.swift */,
+				AC0ECFE68F5F873E87442D09 /* ProgramLibraryView.swift */,
+				01F9950B99025EED9E0152AB /* RulebookView.swift */,
+				93496F99E67A47D587EA87C1 /* RuleDraftCodec.swift */,
+				619B3382A893D9A6F26DE5D6 /* RuleEditorView.swift */,
+				1040E8B0A46E238C71ED8DBF /* TheoryView.swift */,
+				CE3D39B6F707F859595A0A07 /* WorkbenchStyle.swift */,
+			);
+			path = Workbench;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2969FAE5F88B92522DF31F92 /* TuringMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1195FA99C86D74CD61E5C2A1 /* Build configuration list for PBXNativeTarget "TuringMachine" */;
+			buildPhases = (
+				835B710DB9A540CC9C948B65 /* Sources */,
+				C643DAB3CBD9F4418F089A15 /* Resources */,
+				9B6116F42BE3FEB17FEA5546 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuringMachine;
+			packageProductDependencies = (
+				26FEC912B4D7B72C58660050 /* TuringCore */,
+			);
+			productName = TuringMachine;
+			productReference = 754A9B9DD06A3273D56D9756 /* TuringMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44A754221EE78B4321B6941E /* TuringMachineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193D23125225F48C414F4507 /* Build configuration list for PBXNativeTarget "TuringMachineUITests" */;
+			buildPhases = (
+				B8206DD26102EDF2B6CEF868 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28536B9DADC43AB548765234 /* PBXTargetDependency */,
+			);
+			name = TuringMachineUITests;
+			packageProductDependencies = (
+			);
+			productName = TuringMachineUITests;
+			productReference = DFBF58CA0A50593E09E00F98 /* TuringMachineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		85D0A9A8025F9F6374172689 /* TuringMachineSessionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303761F2DCED1BFE03AB25DC /* Build configuration list for PBXNativeTarget "TuringMachineSessionTests" */;
+			buildPhases = (
+				2E8D31C72213BFFDF0CA356B /* Sources */,
+				9825C7B432E8633EA3B3E345 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01415E2E4A55674EDE1742CF /* PBXTargetDependency */,
+			);
+			name = TuringMachineSessionTests;
+			packageProductDependencies = (
+				A51EC222D528CFA8AEF14460 /* TuringCore */,
+			);
+			productName = TuringMachineSessionTests;
+			productReference = DB38E475A98CC7D9A8881AAE /* TuringMachineSessionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		430A5B0A6418B507C97713D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					2969FAE5F88B92522DF31F92 = {
+
+						ProvisioningStyle = Automatic;
+					};
+					44A754221EE78B4321B6941E = {
+
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2969FAE5F88B92522DF31F92;
+					};
+					85D0A9A8025F9F6374172689 = {
+
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 780447689730FAE4D52424B9 /* Build configuration list for PBXProject "TuringMachine" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 922D3D276DC2B2A2C035B954;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0B64BEA65CFBB0EA90CF0C3A /* XCLocalSwiftPackageReference "TuringCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 05402FD94944F32D655E2498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2969FAE5F88B92522DF31F92 /* TuringMachine */,
+				85D0A9A8025F9F6374172689 /* TuringMachineSessionTests */,
+				44A754221EE78B4321B6941E /* TuringMachineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C643DAB3CBD9F4418F089A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E886DFE8DBA6DDB435EC1726 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E8D31C72213BFFDF0CA356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E523C86B572FCD51226DD6D2 /* MachineSessionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835B710DB9A540CC9C948B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB158FBFCD1D558201EE8C3 /* DialOptics.metal in Sources */,
+				BA77FA177CFC838DA48031DA /* DialOpticsView.swift in Sources */,
+				69B38DF4AE66148CE387C644 /* ExecutionDial.swift in Sources */,
+				AFA1F74C6F5A2C00FA1D7CC2 /* ExecutionTraceView.swift in Sources */,
+				E6A03A97F84090E4AC6D0271 /* InstrumentBackdrop.swift in Sources */,
+				EB5818EE2C40640A7AA86AFF /* MachineFeedback.swift in Sources */,
+				E5E289170F50D9E9BC1BD750 /* MachineSession.swift in Sources */,
+				F684E2D0FFDCE9AEE806A3A2 /* MachineStyle.swift in Sources */,
+				E6E07C165D5858FB02E321D9 /* MachineView.swift in Sources */,
+				C3EA92958F4D047D714BE1E5 /* MotionLighting.swift in Sources */,
+				C4E27AEC1FE77FE328CA87D7 /* ProgramLibraryView.swift in Sources */,
+				0C402E1748AEBF884E6022B4 /* RuleDraftCodec.swift in Sources */,
+				8C2D6455C9B6AF7B195FEFEB /* RuleEditorView.swift in Sources */,
+				7E75AAB2DDBF7BD2205A6E97 /* RulebookView.swift in Sources */,
+				BE184BBAF49C82129C3CAED4 /* TapeView.swift in Sources */,
+				45BAD185AFD23E4EAD7C410A /* TheoryView.swift in Sources */,
+				F39B7DCBA58733B34A7E3691 /* TuringMachineApp.swift in Sources */,
+				3A1C6430CCDA562903D03E43 /* WorkbenchStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8206DD26102EDF2B6CEF868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B667FD46774DD821692F884 /* TuringMachineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01415E2E4A55674EDE1742CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2969FAE5F88B92522DF31F92 /* TuringMachine */;
+			targetProxy = F5AD1C36DA0FFEDC5614B5FA /* PBXContainerItemProxy */;
+		};
+		28536B9DADC43AB548765234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2969FAE5F88B92522DF31F92 /* TuringMachine */;
+			targetProxy = 638D3421D50FA4217537C232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		365A63F058D55090F36E2948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		3F30408F96737A038C6EE4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.turingmachine.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuringMachine;
+			};
+			name = Release;
+		};
+		4B2906DA079F3159D1D7611A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TuringMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.turingmachine;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		53AC18F282AF1E65B3739AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		8F41C5F03C3BFBC09DCEE4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TuringMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.turingmachine;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9C63B9B3DA5496B2C42D4C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.turingmachine.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuringMachine;
+			};
+			name = Debug;
+		};
+		A5752CA52862E40531F365CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.turingmachine.sessiontests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuringMachine.app/TuringMachine";
+			};
+			name = Release;
+		};
+		F9F8B03D856FD4B6B6E7E4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.turingmachine.sessiontests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuringMachine.app/TuringMachine";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1195FA99C86D74CD61E5C2A1 /* Build configuration list for PBXNativeTarget "TuringMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2906DA079F3159D1D7611A /* Debug */,
+				8F41C5F03C3BFBC09DCEE4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		193D23125225F48C414F4507 /* Build configuration list for PBXNativeTarget "TuringMachineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C63B9B3DA5496B2C42D4C6A /* Debug */,
+				3F30408F96737A038C6EE4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		303761F2DCED1BFE03AB25DC /* Build configuration list for PBXNativeTarget "TuringMachineSessionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F8B03D856FD4B6B6E7E4B2 /* Debug */,
+				A5752CA52862E40531F365CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		780447689730FAE4D52424B9 /* Build configuration list for PBXProject "TuringMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365A63F058D55090F36E2948 /* Debug */,
+				53AC18F282AF1E65B3739AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0B64BEA65CFBB0EA90CF0C3A /* XCLocalSwiftPackageReference "TuringCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = TuringCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26FEC912B4D7B72C58660050 /* TuringCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TuringCore;
+		};
+		A51EC222D528CFA8AEF14460 /* TuringCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TuringCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 430A5B0A6418B507C97713D2 /* Project object */;
+}

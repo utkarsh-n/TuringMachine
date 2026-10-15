@@ -1,0 +1,80 @@
+name: TuringMachine
+options:
+  bundleIdPrefix: com.utkarsh
+  deploymentTarget:
+    iOS: "27.0"
+  xcodeVersion: "27.0"
+  createIntermediateGroups: true
+packages:
+  TuringCore:
+    path: TuringCore
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "2"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+targets:
+  TuringMachine:
+    type: application
+    platform: iOS
+    sources: [TuringMachine]
+    dependencies:
+      - package: TuringCore
+        product: TuringCore
+    info:
+      path: TuringMachine/Info.plist
+      properties:
+        CFBundleDisplayName: The Turing Machine
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        NSMotionUsageDescription: "Device motion moves the reflections across the machine's glass dial."
+        CADisableMinimumFrameDurationOnPhone: true
+        ITSAppUsesNonExemptEncryption: false
+        LSApplicationCategoryType: public.app-category.education
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.turingmachine
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTS_MACCATALYST: NO
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+  TuringMachineSessionTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Tests/SessionTests]
+    dependencies:
+      - target: TuringMachine
+      - package: TuringCore
+        product: TuringCore
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.turingmachine.sessiontests
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/TuringMachine.app/TuringMachine
+        BUNDLE_LOADER: $(TEST_HOST)
+  TuringMachineUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [Tests/UITests]
+    dependencies:
+      - target: TuringMachine
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.turingmachine.uitests
+schemes:
+  TuringMachine:
+    build:
+      targets:
+        TuringMachine: all
+    test:
+      targets: [TuringMachineSessionTests, TuringMachineUITests]
